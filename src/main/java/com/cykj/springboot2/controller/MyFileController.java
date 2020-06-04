@@ -17,7 +17,7 @@ public class MyFileController {
     @Autowired
     private TbUserservice tbUserservice;
 
-    //1323
+    //提交本地
     @RequestMapping("/login")
     @ResponseBody
     public String login() {
