@@ -8,6 +8,7 @@ public class TbGrade {
     private long gradeId;
     private String gradeName;
     private List<String> list;
+    private String car;
 
     @Override
     public String toString() {
